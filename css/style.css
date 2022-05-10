@@ -1,18 +1,141 @@
-body{
-    background-color: lightgrey;
+* {
     margin: 0 auto;
 }
 
-#logo{
-width: 100px;
-padding: 20px 50px;
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    height: 100px;
+#logo {
+    vertical-align: middle;
+    width: 100px;
+    padding: 20px 30px;
+}
+
+header {
+    background-color: white;
+    height: 150px;
     margin-bottom: 150px;
 }
 
-h1{
+h1 {
+    vertical-align: middle;
+    font-size: 80px;
     display: inline;
+}
+
+.container {
+    border-radius: 15px;
+    padding: 50px 0px 50px 100px;
+    background-color: white;
+    width: 1700px;
+}
+
+.add-bar{
+    padding: 0;
+    margin: 0;
+    background-color: #64C0A9;
+    width: 1700px;
+    height: 70px;
+}
+
+
+.add-task {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(71, 154, 223);
+    color: white;
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid grey;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.add-section {
+    font-size: 25px;
+    border: 1px solid grey;
+    color: grey;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.tasks {
+    padding-top: 50px;
+    font-size: 2.5em;
+}
+
+/*entities*/
+
+.triangle {
+    padding: 5px;
+    font-size: 25px;
+    display: inline;
+}
+
+.check {
+    border-radius: 50%;
+    display: inline;
+    color: green;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+.cross {
+    border-radius: 50%;
+    display: inline;
+    color: red;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    padding-top: 10px;
+}
+
+/*reminders*/
+
+.reminder {
+    background-color: rgb(71, 154, 223);
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    display: inline;
+}
+
+/*reminders colors*/
+
+.reminder-recruit{
+    background-color: #64C0A9;
+}
+
+.reminder-sales {
+    background-color: greenyellow;    
+}
+
+.reminder-goals{
+background-color: #9C72E4;
+}
+
+.reminder-mobile{
+background-color: #F29E33;
+}
+
+.reminder-web{
+    background-color: #D863A1;
 }
