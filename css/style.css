@@ -1,5 +1,6 @@
 * {
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,35 +10,34 @@ body {
 
 #logo {
     vertical-align: middle;
-    width: 100px;
-    padding: 20px 30px;
+    width: 150px;
+    padding-left: 30px;
 }
 
 header {
+    padding: 20px;
     background-color: white;
-    height: 150px;
     margin-bottom: 150px;
 }
 
 h1 {
     vertical-align: middle;
-    font-size: 80px;
+    font-size: 100px;
     display: inline;
 }
 
 .container {
+    margin-bottom: 100px;
     border-radius: 15px;
-    padding: 50px 0px 50px 100px;
     background-color: white;
     width: 1700px;
 }
 
 .add-bar{
-    padding: 0;
-    margin: 0;
-    background-color: #64C0A9;
-    width: 1700px;
-    height: 70px;
+    border-radius: 10px 10px 0 0;
+    background-color: #FFF;
+    border-bottom: 10px solid lightgrey;
+    padding: 50px;
 }
 
 
@@ -64,6 +64,10 @@ a {
     padding: 10px;
     border-radius: 20px;
     display: inline;
+}
+
+.content{
+    padding: 50px;
 }
 
 ul {
